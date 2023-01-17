@@ -1,0 +1,115 @@
+<p></p>
+<p></p>
+<p></p>
+<h1 style="background-image: linear-gradient(#3E1C4F,#9E3C7E);font-size:18px; color:white;padding:10px;text-align:center">Coding logic for "Weather Forecasting App"</h1>
+<p>In this session, we will be coding logic for the "Weather Forecasting App".</p>
+<ol>
+<li>This app consists of two screens.</li>
+<li>Screen 1 is the introduction screen.</li>
+<li>Screen 2 is a weather forecasting screen.</li>
+</ol>
+<h3 style="background-image: linear-gradient(#3E1C4F,#9E3C7E);font-size:18px; color:white;padding:10px;text-align:center"><span style="color: inherit;">Coding splash screen logic of the Weather Forecasting App.</span><br></h3>
+<ol>
+<li>In this screen, we use two components, "Label" and "Animation".</li>
+<li>Screen 1 opens for 3 seconds, and then "Screen 1" navigates to "Screen 2".</li>
+</ol>
+<h3 style="background-image: linear-gradient(#3E1C4F,#9E3C7E);font-size:18px; color:white;padding:10px;text-align:center"><span style="color: inherit;">The steps to code for the first screen are as follows.</span><br></h3>
+
+<ol>
+<li>Click on the "Blocks" tab. </li>
+<img src="https://drive.google.com/uc?export=view&amp;id=1mQjzrILSr4Z3wcPzRI2jnzY8MWHSinqy">
+<hr style="height:5px;border-width:0;background-image:linear-gradient(#3E1C4F,#9E3C7E);">
+
+<li>Click on the "When Screen1 Opens" and drag it on the screen.</li>
+<img src="https://drive.google.com/uc?export=view&amp;id=1P9rWxiUKTo1PvFwNCl7h4q7pCJRQFycW">
+<hr style="height:5px;border-width:0;background-image:linear-gradient(#3E1C4F,#9E3C7E);">
+
+<li>Go to the "Control" block and drag the "Wait 1 seconds" block. </li>
+<img src="https://drive.google.com/uc?export=view&amp;id=1AE_nfPDU3vZvNfNy2tS1dsJYZdFhGA03">
+<hr style="height:5px;border-width:0;background-image:linear-gradient(#3E1C4F,#9E3C7E);">
+
+<li>Change the "Wait 1 seconds" to "Wait 3 seconds".</li>
+<img src="https://drive.google.com/uc?export=view&amp;id=1VLEe6GYigDOnHO1AGxO_pwXsdzzSSdVl">
+<hr style="height:5px;border-width:0;background-image:linear-gradient(#3E1C4F,#9E3C7E);">
+
+<li>Go to the "Control" block and drag the "navigate to Screen1" block. </li>
+<img src="https://drive.google.com/uc?export=view&amp;id=1mPYoEkryeVUjAjAgCy8lkm9piqhDaMqd">
+<hr style="height:5px;border-width:0;background-image:linear-gradient(#3E1C4F,#9E3C7E);">
+
+<li>Change the "Screen1" to "Screen2".</li>
+<img src="https://drive.google.com/uc?export=view&amp;id=1JF9PgkdtzaB-abtQcQFdszCqt6MAippz">
+<hr style="height:5px;border-width:0;background-image:linear-gradient(#3E1C4F,#9E3C7E);">
+
+<li>Click on the "Screen2".</li>
+<img src="https://drive.google.com/uc?export=view&amp;id=14GDB5X4DG0UQEFvdQGWfbOopPkw6yF5C">
+<hr style="height:5px;border-width:0;background-image:linear-gradient(#3E1C4F,#9E3C7E);">
+
+<li>Go to the "Variables" block and drag the "initialize app variable name to" block. </li>
+<img src="https://drive.google.com/uc?export=view&amp;id=1Lbr8yPK9L1u77Ggum5n8c7subd2PSbCy">
+<hr style="height:5px;border-width:0;background-image:linear-gradient(#3E1C4F,#9E3C7E);">
+
+<li>Change the "name" to "APIKey".</li>
+<img src="https://drive.google.com/uc?export=view&amp;id=11Oe_pusmIcWztKf_M-A8frTMV4DOCHJ5">
+<hr style="height:5px;border-width:0;background-image:linear-gradient(#3E1C4F,#9E3C7E);">
+
+<li>Go to the "Variables" block and drag the "initialize app variable name to" block. Also, Change the "name" to "cityList".</li>
+<img src="https://drive.google.com/uc?export=view&amp;id=1V_v5C9IE7JD3dk4RrLYeEXxwI70AF1lX">
+<hr style="height:5px;border-width:0;background-image:linear-gradient(#3E1C4F,#9E3C7E);">
+
+<li>Go to the "Variables" block and drag the "initialize app variable name to" block. Also, Change the "name" to "temperature".</li>
+<img src="https://drive.google.com/uc?export=view&amp;id=1Bl6U-HdeaSzNz3Z7ea1wd6w1fBe5vv0Z">
+<hr style="height:5px;border-width:0;background-image:linear-gradient(#3E1C4F,#9E3C7E);">
+
+<li>Go to the "Screen2" and drag "When Screen2 Starts".</li>
+<img src="https://drive.google.com/uc?export=view&amp;id=1LXV5ReOyhrbNWgC1GbCgmVR76UAQIe7E">
+<hr style="height:5px;border-width:0;background-image:linear-gradient(#3E1C4F,#9E3C7E);">
+
+<li>Go to the "Variables" and drag "set app variable APIKey to" on the screen.</li>
+<img src="https://drive.google.com/uc?export=view&amp;id=1u-Cm_oypaonsu18iSpOEClSg2y8K50WF">
+<hr style="height:5px;border-width:0;background-image:linear-gradient(#3E1C4F,#9E3C7E);">
+
+<li>Now select "app variable cityList" from the drop-down.</li>
+<img src="https://drive.google.com/uc?export=view&amp;id=1aT59k-rwEChkbOWAIdUXFxsOMZ3gsCK7">
+<hr style="height:5px;border-width:0;background-image:linear-gradient(#3E1C4F,#9E3C7E);">
+
+<li>Go to the "Lists" and drag the "list" on the screen.</li>
+<img src="https://drive.google.com/uc?export=view&amp;id=1J2Q8vmbWcinlOtESZKAD40F0P1b2l7Xb">
+<hr style="height:5px;border-width:0;background-image:linear-gradient(#3E1C4F,#9E3C7E);">
+
+<li>Go to the "Text" and drag the first block on the screen.</li>
+<img src="https://drive.google.com/uc?export=view&amp;id=12jufyTg-wExCUuwNzfPi1vc9odupyiPx">
+<hr style="height:5px;border-width:0;background-image:linear-gradient(#3E1C4F,#9E3C7E);">
+
+<li>Delete the "1" block.</li>
+<img src="https://drive.google.com/uc?export=view&amp;id=1eSqfd2kK8ZnN6IIBCVZ40FUWV9BtDo-_">
+<hr style="height:5px;border-width:0;background-image:linear-gradient(#3E1C4F,#9E3C7E);">
+
+<li>Go to the "Text" and drag the first block on the screen.</li>
+<img src="https://drive.google.com/uc?export=view&amp;id=1appwIU8lyE25Z1VQY4j7FLZXAfJKPhGX">
+<hr style="height:5px;border-width:0;background-image:linear-gradient(#3E1C4F,#9E3C7E);">
+
+<li>Delete the "2" block.</li>
+<img src="https://drive.google.com/uc?export=view&amp;id=1PAp2KIQP9CKPNZRI8vbbCc_4gh-E6_75">
+<hr style="height:5px;border-width:0;background-image:linear-gradient(#3E1C4F,#9E3C7E);">
+
+<li>Go to the "Text" and drag the first block on the screen.</li>
+<img src="https://drive.google.com/uc?export=view&amp;id=1NoPzAnfvsLsFrH-8vBEAMgdW80cyDGhV">
+<hr style="height:5px;border-width:0;background-image:linear-gradient(#3E1C4F,#9E3C7E);">
+
+<li>Go to the "Text" and drag the first block on the screen.</li>
+<img src="https://drive.google.com/uc?export=view&amp;id=1NoPzAnfvsLsFrH-8vBEAMgdW80cyDGhV">
+<hr style="height:5px;border-width:0;background-image:linear-gradient(#3E1C4F,#9E3C7E);">
+
+<li>Delete the "3" block.</li>
+<img src="https://drive.google.com/uc?export=view&amp;id=1EnsaAAUj6YwW2WOph9B05dK_j0kH1YHh">
+<hr style="height:5px;border-width:0;background-image:linear-gradient(#3E1C4F,#9E3C7E);">
+
+<li>Go to the "List_Viewer1" and drag the "set List_Viewer1's text items" block on the screen.</li>
+<img src="https://drive.google.com/uc?export=view&amp;id=1oYzktRcun2V6COC5Kyi0F-3yGC7NEno6">
+<hr style="height:5px;border-width:0;background-image:linear-gradient(#3E1C4F,#9E3C7E);">
+
+<li>Go to the "Variables" and drag the "app variable cityList" block on the screen.</li>
+<img src="https://drive.google.com/uc?export=view&amp;id=1eh8d_tVXLxPD0D_6vVNVB2NNL8Pdkv9z">
+<hr style="height:5px;border-width:0;background-image:linear-gradient(#3E1C4F,#9E3C7E);">
+
+</ol>
